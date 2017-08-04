@@ -1,0 +1,33 @@
+body {
+	background-color: #2ecc71;	
+	margin: 0;
+}
+.content {
+	width: 500px;
+	margin: 0 auto; /*wyśordkowany w poziomie*/
+	background-color: #FFF;
+	padding: 20px;
+}
+h1 {
+	text-align:center;	
+}
+img {
+	width: 100%;  /*zdjęcie zajmuje całą szerokość rodzica*/
+}
+.header {
+	text-align: center;
+	padding: 30px 0;
+	background-color:#f39c12;
+	color: #FFF;
+}
+.footer {
+	background-color:#7f8c8d;
+	text-transform: uppercase;   /*zmiana całego tekstu na wielkie litery*/
+	font-weight: bold;           /*pogrubienie czcionki*/
+
+}
+.footer p {
+	margin:0;
+	padding:30px 0px 15px 20px;	
+	
+}

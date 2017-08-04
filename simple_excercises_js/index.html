@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<script>
+		function checkNumber(){
+			var newnumber = document.getElementById("number").value;
+			
+			if (newnumber > 0) document.getElementById("result").innerHTML="Dodatnia";
+			else if (newnumber < 0) document.getElementById("result").innerHTML="Ujemna";
+			else if (newnumber == "0") document.getElementById("result").innerHTML="Zero";
+			else document.getElementById("result").innerHTML="Nie podano liczby!";
+			
+		}
+	</script>
+</head>
+
+<body>
+
+<input type="text" id="number">
+<input type="button" value="Sprawdź" onclick = checkNumber()>
+
+<div id="result">
+</div>
+
+<input type="text" id="">
+<input type="button" value="Sprawdź" onclick = checkNumber()>
+
+<div id="result">
+</div>
+
+</body>
+
+<html>

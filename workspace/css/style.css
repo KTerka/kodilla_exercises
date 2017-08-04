@@ -1,0 +1,15 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.hero {
+	height: 500px;
+	background-image: url('d:/front_end/javascript/workspace/images/gory.jpg');
+	object-fit: contain;
+	color: black;
+
+}
